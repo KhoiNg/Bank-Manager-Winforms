@@ -45,14 +45,69 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AccountForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AccountForm.Designer.cs">
+      <DependentUpon>AccountForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bankform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bankform.Designer.cs">
+      <DependentUpon>Bankform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeForm.Designer.cs">
+      <DependentUpon>ChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeFormTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeFormTemp.Designer.cs">
+      <DependentUpon>ChangeFormTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Date Filter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Date Filter.Designer.cs">
+      <DependentUpon>Date Filter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertForm.Designer.cs">
+      <DependentUpon>InsertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BankItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchForm.Designer.cs">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountForm.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bankform.resx">
+      <DependentUpon>Bankform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeForm.resx">
+      <DependentUpon>ChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeFormTemp.resx">
+      <DependentUpon>ChangeFormTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Date Filter.resx">
+      <DependentUpon>Date Filter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertForm.resx">
+      <DependentUpon>InsertForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -62,6 +117,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SearchForm.resx">
+      <DependentUpon>SearchForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
