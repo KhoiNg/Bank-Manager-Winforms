@@ -129,9 +129,9 @@ namespace ManageBankProgram
 
         private void InitializeFeature()
         {
-            showList(null);
-            textBoxBalance.Text = CalculateAmount(null).ToString("C2",Currency);
-            textBoxSum.Text = CalculateAmount(null).ToString("C2",Currency);
+            showList(BankData);
+            textBoxBalance.Text = CalculateAmount(BankData).ToString("C2",Currency);
+            textBoxSum.Text = CalculateAmount(BankData).ToString("C2",Currency);
         }
 #endregion
     }
